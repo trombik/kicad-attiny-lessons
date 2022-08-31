@@ -6,6 +6,9 @@ written in pure C, not Arduino. In the lessons, you will learn the internal of
 AVR MCUs. You will have to control memory mapped resisters, use avr libc, and
 go through the data sheet.
 
+The data sheet can be downloaded at
+[Microchip website](https://www.microchip.com/en-us/product/ATtiny85).
+
 ## Requirements
 
 All lessons requires the followings:
