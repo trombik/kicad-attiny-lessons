@@ -1,6 +1,6 @@
 #include <avr/io.h>
 
-/* see 11.7.4 Phase Correct PWM Mode in the datasheet, */
+/* see 11.7.3 Fast PWM Mode in the datasheet, */
 int
 main()
 {
