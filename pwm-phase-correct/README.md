@@ -17,6 +17,10 @@ The clock source of the timer is, by default, the internal system clock, which
 is 8MHz with prescaling of 8, or 1MHz.  The frequency can be changed by using
 prescaler. As such, you cannot use an arbitrary frequency.
 
+## What the program does
+
+The LED blinks at 1.91Hz with 58.6% duty rate.
+
 ## Requirements
 
 * An ATTiny85
