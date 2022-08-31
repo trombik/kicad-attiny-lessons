@@ -13,7 +13,6 @@ The program blinks an LED connected to `PB0`.
 * An ATTiny85
 * An LED
 * A 1K resistor
-* A push button, normally open.
 
 ## Schematic
 
