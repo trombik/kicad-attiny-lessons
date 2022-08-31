@@ -14,7 +14,7 @@ The data sheet can be downloaded at
 All lessons requires the followings:
 
 * Python 3.x
-* `tox` python module (see [tox installation](https://tox.wiki/en/latest/install.html)
+* `tox` python module (see [tox installation](https://tox.wiki/en/latest/install.html))
 * ["Arduino as ISP" programmer](https://github.com/trombik/kicad-avr-programmer)
 * 5V power source, such as USB
 * ATTiny85-20P (DIP package)
