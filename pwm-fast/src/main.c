@@ -65,7 +65,7 @@ main()
 	 *
 	 * see 11.9.5 OCR0A – Output Compare Register A
 	 */
-	OCR0A = 10;
+	OCR0A = 150;
 	while (1) {
 		/* you can do whatever here. the PWM signal is controlled by
 		 * the hardware.
