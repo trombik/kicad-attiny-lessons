@@ -24,10 +24,8 @@ The LED blinks at 1.91Hz with 58.6% duty rate.
 ## Requirements
 
 * An ATTiny85
-* ["Arduino as ISP" programmer](https://github.com/trombik/kicad-avr-programmer)
 * An LED
 * A 1K resistor
-* 5V power source
 
 ## Schematic
 
