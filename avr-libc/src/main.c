@@ -23,14 +23,14 @@
  * use #include "foo.h" to include your own header file.
  *
  * note that "#" in front of "include" is NOT the start of a comment.
- *
- * for more details, see:
- * https://www.nongnu.org/avr-libc/user-manual/group__util__delay.html
- * https://www.nongnu.org/avr-libc/user-manual/group__avr__io.html
  */
 
 /* include avr/io.h, which provides functions and macro definitions to control
  * GPIO pins, and avr/delay.h, which provides delay functions.
+ *
+ * for more details, see:
+ * https://www.nongnu.org/avr-libc/user-manual/group__util__delay.html
+ * https://www.nongnu.org/avr-libc/user-manual/group__avr__io.html
  */
 #include <avr/delay.h>
 #include <avr/io.h>
