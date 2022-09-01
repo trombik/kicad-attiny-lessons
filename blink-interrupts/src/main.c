@@ -80,6 +80,8 @@
  * when timer0 overflows.  to create an interrupt function, use `ISR()` macro.
  * the argument is a name of interrupts.
  *
+ * see also:
+ * https://avr-libc.nongnu.org/user-manual/group__avr__interrupts.html
  */
 
 /* the counter to count how many times an overflow occurs. */
@@ -124,17 +126,17 @@ int
 main()
 {
 
-	/* use a prescale factor of 64.
-	 *
-	 * see 11.9.3 TCCR0B – Timer/Counter Control Register B
-	 */
-	TCCR0B |= (1 << CS01) | (1 << CS00);
-
 	/* enable timer0 interrupt.
 	 *
 	 * see 11.9.7 TIMSK – Timer/Counter Interrupt Mask Register
 	 */
 	TIMSK |= (1 << TOIE0);
+
+	/* use a prescale factor of 64.
+	 *
+	 * see 11.9.3 TCCR0B – Timer/Counter Control Register B
+	 */
+	TCCR0B |= (1 << CS01) | (1 << CS00);
 
 	/* configure PB0 as an output */
 	DDRB |= (1 << DDB0);
