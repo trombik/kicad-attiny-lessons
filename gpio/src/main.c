@@ -68,7 +68,7 @@ main()
 		 */
 		if (PINB & (1 << PB1)) {
 			/* PB1 is HIGH, drive PB0 LOW */
-			PORTB &= ~(1 << PORTB0)
+			PORTB &= ~(1 << PORTB0);
 		} else {
 			/* PB1 is LOW. drive PB0 HIGH */
 			PORTB |= (1 << PORTB0);
